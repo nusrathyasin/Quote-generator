@@ -3,7 +3,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	 width:auto;
 	 height:auto;
 }
