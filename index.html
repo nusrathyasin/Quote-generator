@@ -1,1 +1,93 @@
-# Quote-generator
+<!doctype html>
+<html lang="en">
+    <head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Animate.css -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	    <!-- Library of Bootstrap -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     	    <!-- Library of jQuery -->
+            <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+           
+    	    <!-- Font style-->
+	    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+      <!-- CSS file-->
+            <link href="style.css" rel="stylesheet" type="text/css" />
+	    <!-- Title -->
+	    <title>Quote generator</title>
+      <!-- jquery code-->
+<script>
+$(document).ready(function(){
+$('#quotes').addClass("animated rollIn");
+$("#hai").click(function(){
+$("#quotes").show();
+$("#storyi").hide();
+});
+$("#bye").click(function(){
+alert("Everytime,Double click 'NEXT' button to read further stories");
+$("#quotes").hide();
+$("#storyi").show();
+});
+});
+</script>
+      </head>
+<body>
+<div class="container-fluid">
+<header>
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-6">
+
+<h1 id="ter" style="font-family:Vivaldi">NusrathYasin</h1>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6" id="social">
+
+
+<ul class="list-inline">
+<li><a href="https://github.com/nusrathyasin/" target="_blank"><img src="http://untv.github.io/assets/images/github-icon-black.svg" class="img-responsive" width="60" height="60" /></a></li>
+<li> <a href="mailto:nusrathyasin000@gmail.com" target="_blank"><img src="http://image.flaticon.com/icons/svg/60/60543.svg" class="img-responsive" width="54" height="60" /></li>
+<li><a href="https://twitter.com/nusrathy" target="_blank"><img src="https://www.seeklogo.net/wp-content/uploads/2015/09/twitter-icon-circle-logo.png" class="img-responsive" width="60" height="60" /></a></li>
+
+</ul>
+</div>
+</div>
+
+</header>
+<div id="section" class="text-center">
+
+<h1>Random Quote Machine</h1>
+<button id="hai"class="btn btn-lg btn-danger">Quotes</button>
+<button id="bye" class="btn btn-lg btn-danger">Short inspirational stories</button>
+
+<center>
+<div id="box" >
+<div class="row">
+<div class="col-md-12">
+<p id="quotes">Quotes/Inspirational Stories<br><font size="4">Select either 'Quotes' or 'Short inspirational stories' to get started</font></p>
+<p id="storyi" style="font-size:18px;
+font-family:'Merienda', cursive"><img src="IMG-20140504-WA0027.jpg" class="img-responsive img-rounded"/></p>
+<!-- <img id="gmi" src="IMG_0232.jpg" style="visibility:hidden"/>
+<img id="gmii" src="IMG-20140504-WA0027.jpg" style="vis ibility:hidden"/>-->
+</div>
+
+</div>
+</div>
+</center>
+</div>
+<div class="row">
+<div class="col-xs-12 col-md-12 col-sm-12">
+<button id="next" class="btn btn-default" onclick="myFunction()" ondblclick="myStory()">NEXT</button>
+</div>
+</div>
+<footer class="text-center">
+
+<marquee>Random Quote Machine may generate the quotes randomly,sometimes we can get repeated quotes.Nearly 15 quotes and 4 stories are there.Read everything by clicking 'Next' button.</marquee>
+<p>Made with <span class="glyphicon glyphicon-heart"></span> by Nusrath Yasin for Coderstrust</p>
+
+</footer>
+</div>
+  </body>
+</html>
