@@ -4,6 +4,8 @@
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-repeat:no-repeat;
+	 width:auto;
+	 height:auto;
 }
 header{
 	text-shadow:2px 2px 2px black;
