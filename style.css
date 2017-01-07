@@ -1,125 +1,99 @@
-
-body{
-background:url("http://www.designrouge.com/wp-content/uploads/2013/03/Crumpled-Red-Paper-paper-background.jpg");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-background-repeat:no-repeat;
-margin:0;
-padding:0;
-
+ body{
+	background:url("http://www.designrouge.com/wp-content/uploads/2013/03/Crumpled-Red-Paper-paper-background.jpg");
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat:no-repeat;
 }
 header{
-//box-shadow:1px 1px 1px 2px black;
-//font-family:vivaldi;
-//font-size:60px;
-//color:white;
-text-shadow:2px 2px 2px black;
-margin:30px;
-border-bottom:1px solid grey;
+	text-shadow:2px 2px 2px black;
+	margin:30px;
+	border-bottom:1px solid grey;
 }
-#ter{
-font-size:50px;
-color:white;
+#name{
+	font-size:50px;
+	color:white;
 }
 #social ul li{
-float:right;
-//list-style:none;
-//display:flex;
-margin-top:20px;
-padding-right:20px;
+	float:right;
+	margin-top:20px;
+	padding-right:20px;
 }
-
 #section button{
-margin-left:20px;
+	margin-left:20px;
 }
-
 #section h1{
-font-family:Tangerine;
-text-shadow:2px 2px 2px white;
-font-size:70px;
-color:white;
+	font-family:'Tangerine',cursive;
+	text-shadow:2px 2px 2px white;
+	font-size:70px;
+	color:white;
 }
 #box{
-border:1px solid white;
-background-color:white;
-border-radius:20px;
-width:65%;
-height:35%;
-margin-top:20px;
-//overflow:auto;
+	border:1px solid white;
+	background-color:white;
+	border-radius:20px;
+	width:65%;
+	height:35%;
+	margin-top:20px;
 }
 #storyi{
-display:none;
+	display:none;
 }
-#gmi,#gmii{
-width:800px;
-height:250px;
-border-radius:20px;
-}
-
 #quotes{
-font-size:30px;
-font-family:'Merienda', cursive;
-font-weight:bold;
-padding:30px;
+	font-size:30px;
+	font-family:'Merienda', cursive;
+	font-weight:bold;
+	padding:30px;
 }
 blockquote{
-float:right;
+	float:right;
 }
 #storyi img{
-width:890px;
-height:235px;
+	width:890px;
+	height:235px;
 }
 #storyi p{
-font-size:20px !important; 
-font-family:'Merienda', cursive !important;
-font-weight:bold;
-padding:10px;
+	font-size:20px !important; 
+	font-family:'Merienda', cursive !important;
+	font-weight:bold;
+	padding:10px;
 }
 #next{
-float:right;
-margin-right:240px;
-margin-top:20px;
-position:static;
+	float:right;
+	margin-right:240px;
+	margin-top:20px;
+	position:static;
 }
 footer{
-position:static;
-padding-top:30px;
-color:white;
-
+	position:static;
+	padding-top:30px;
+	color:white;
 }
 
-@media screen and (max-width: 908px) {
-#ter{
-font-size:38px;
-}
-#social ul li{
-padding-right:8px;
-float:right;
-//display:flex;
-}
-#social img{
-width:50px;
-height:50px;
-
-}
-#section h1{
-font-size:50px;
-}
-#box{
-	width:auto;
-height:auto;
+@media screen and (max-width: 968px) {
+	#name{
+		font-size:38px;
 	}
-#quotes,#storyi{
-font-size:20px;
-
-}
-
-#next{
-margin-left:200px;
-float:right;
-}
-    
+	#social ul li{
+		padding-right:8px;
+		float:right;
 	}
-	
+	#social img{
+		width:50px;
+		height:50px;
+	}
+	#section h1{
+		font-size:50px;
+	}
+	#box{
+		width:auto;
+		height:auto;
+	}
+	#quotes,#storyi{
+		font-size:20px;
+	}
+	#next{
+		margin-left:200px;
+		float:right;
+	}
+}
