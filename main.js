@@ -2,12 +2,13 @@
 function myFunction() {
     var quote,x;
     switch(Math.floor(Math.random() * 16)){
-    case 0 :
+    	case 0 :
         quote = '"One who wins without problem",it is just a VICTORY but "One who wins with lot of troubles" that is HISTORY.<br><blockquote>Adolf Hitler</blockquote>';
 		break;
-     case 1 :
-        quote = "Hard Work may not always result in SUCCESS,But it will never result in REGRET.";break;
-    case 2 :
+     	case 1 :
+        quote = "Hard Work may not always result in SUCCESS,But it will never result in REGRET.";
+		break;
+    	case 2 :
         quote = "My pain may be the reason for somebody's laugh.But my laugh must never be the reason for somebody's pain. <br><blockquote>Charlie chaplin</blockquote>";break;
 	case 3 :
         quote = "'Empty pockets' teaches you a million things in life,but 'Full pockets' spoils you in a million ways.";
