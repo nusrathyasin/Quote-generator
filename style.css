@@ -11,6 +11,7 @@ header{
 	border-bottom:1px solid grey;
 }
 #name{
+	font-family:'Vivaldi',cursive;
 	font-size:50px;
 	color:white;
 }
@@ -73,6 +74,7 @@ footer{
 @media screen and (max-width: 968px) {
 	#name{
 		font-size:38px;
+		font-family:'Tangerine',cursive;
 	}
 	#social ul li{
 		padding-right:8px;
